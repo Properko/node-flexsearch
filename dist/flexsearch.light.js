@@ -1,5 +1,5 @@
 /**!
- * FlexSearch.js v0.7.31 (Light)
+ * FlexSearch.js v0.7.32 (Light)
  * Author and Copyright: Thomas Wilkerling
  * Licence: Apache-2.0
  * Hosted by Nextapps GmbH

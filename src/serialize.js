@@ -7,7 +7,7 @@ function async(callback, self, field, key, index_doc, index, data){
 
     setTimeout(function(){
 
-        const res = callback(field ? field + "." + key : key, JSON.stringify(data));
+        const res = callback(field ? field + "." + key : key, data);
 
         // await isn't supported by ES5
 

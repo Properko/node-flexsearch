@@ -1,5 +1,5 @@
 /**!
- * FlexSearch.js v0.7.31 (Debug)
+ * FlexSearch.js v0.7.32 (Debug)
  * Author and Copyright: Thomas Wilkerling
  * Licence: Apache-2.0
  * Hosted by Nextapps GmbH
@@ -218,7 +218,7 @@ K.prototype.del = function(a) {
 const na = {memory:{charset:"latin:extra", resolution:3, minlength:4, fastupdate:!1}, performance:{resolution:3, minlength:3, optimize:!1, context:{depth:2, resolution:1}}, match:{charset:"latin:extra", tokenize:"reverse",}, score:{charset:"latin:advanced", resolution:20, minlength:3, context:{depth:3, resolution:9,}}, "default":{},};
 function pa(a, b, c, d, e, f, g) {
   setTimeout(function() {
-    const h = a(c ? c + "." + d : d, JSON.stringify(g));
+    const h = a(c ? c + "." + d : d, g);
     h && h.then ? h.then(function() {
       b.export(a, b, c, e, f + 1);
     }) : b.export(a, b, c, e, f + 1);
